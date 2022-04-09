@@ -1,0 +1,16 @@
+﻿<Project Synchronized="False" SyncFilter="*.ps1;*.psm1;*.psd1;*.ps1xml;*.psf;*.pss;*.xml;*.help.txt">
+  <Version>2.1</Version>
+  <FileID>2b0f4f08-c9b9-4c53-9d87-f5a14157b70e</FileID>
+  <ProjectType>0</ProjectType>
+  <Folders />
+  <Files>
+    <File Build="0">Startup.pss</File>
+    <File Build="0" Shared="True" ReferenceFunction="Invoke-Global_ps1">Globals.ps1</File>
+    <File Build="0" ReferenceFunction="Show-MainForm_psf">MainForm.psf</File>
+    <File Build="2">Eventus-Icon.png</File>
+    <File Build="0" Shared="False" ReferenceFunction="Invoke-Generate_NoMobile_template_ps1">Generate_NoMobile_template.ps1</File>
+    <File Build="0" Shared="False" ReferenceFunction="Invoke-Generate_Mobile_Temp_ps1">Generate_Mobile_Temp.ps1</File>
+    <File Build="0" ReferenceFunction="Show-Progress_psf">Progress.psf</File>
+    <File Build="0" ReferenceFunction="Show-Prereqs_psf">Prereqs.psf</File>
+  </Files>
+</Project>
